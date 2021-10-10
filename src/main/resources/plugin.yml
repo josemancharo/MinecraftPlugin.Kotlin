@@ -1,0 +1,3 @@
+name: MainPlugin
+main: josemancharo.mc_plugin_2.MainPlugin
+version: 1.0
