@@ -1,8 +1,6 @@
-package josemancharo.mc_plugin_2
+package josemancharo.mc_kotlin
 
-import josemancharo.mc_plugin_2.listeners.PlayerListeners
-import org.bukkit.event.*;
-import org.bukkit.generator.ChunkGenerator;
+import josemancharo.mc_kotlin.listeners.PlayerListeners
 import org.bukkit.plugin.java.*;
 
 

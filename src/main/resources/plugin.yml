@@ -1,3 +1,3 @@
 name: MainPlugin
-main: josemancharo.mc_plugin_2.MainPlugin
+main: josemancharo.mc_kotlin.MainPlugin
 version: 1.0

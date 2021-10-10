@@ -1,10 +1,9 @@
-package josemancharo.mc_plugin_2.listeners
+package josemancharo.mc_kotlin.listeners
 
 import org.bukkit.Material
 import org.bukkit.Sound
 import org.bukkit.entity.Drowned
 import org.bukkit.entity.EntityType
-import org.bukkit.entity.*
 import org.bukkit.event.*
 import org.bukkit.event.entity.*
 import org.bukkit.inventory.ItemStack
