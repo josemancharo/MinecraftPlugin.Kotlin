@@ -17,7 +17,8 @@ internal class CustomRecipes {
     private fun getTridentRecipe(): ShapedRecipe {
         val items = ItemStack(Material.TRIDENT, 1)
         val recipe = ShapedRecipe(NamespacedKey.minecraft("trident"), items)
-        recipe.shape("d d", " c ", " i ")
+        recipe.shape("dhd", " c ", " i ")
+        recipe.setIngredient('h', Material.HEART_OF_THE_SEA)
         recipe.setIngredient('d', Material.DIAMOND)
         recipe.setIngredient('c', Material.COPPER_INGOT)
         recipe.setIngredient('i', Material.IRON_INGOT)

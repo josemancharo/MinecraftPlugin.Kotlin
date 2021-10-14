@@ -13,7 +13,7 @@ import org.bukkit.util.Vector
 import java.util.*
 import kotlin.random.Random
 
-class PlayerListeners : Listener {
+class SpawnListeners : Listener {
     @EventHandler fun makeFireworksInsane(event: FireworkExplodeEvent) {
         event.entity.world.createExplosion(event.entity.location, 2f)
     }
