@@ -1,5 +1,5 @@
 name: MainPlugin
 main: josemancharo.mc_kotlin.MainPlugin
-version: 1.1
+version: 1.2.1
 api-version: 1.17
 load: POSTWORLD
