@@ -2,6 +2,7 @@ package josemancharo.mc_kotlin.listeners
 
 import org.bukkit.Material
 import org.bukkit.Sound
+import org.bukkit.block.Biome
 import org.bukkit.entity.Creeper
 import org.bukkit.entity.Drowned
 import org.bukkit.entity.EntityType
@@ -14,10 +15,6 @@ import java.util.*
 import kotlin.random.Random
 
 class SpawnListeners : Listener {
-    @EventHandler fun makeFireworksInsane(event: FireworkExplodeEvent) {
-        event.entity.world.createExplosion(event.entity.location, 2f)
-    }
-
     @EventHandler fun summonLightningOnChargedCreeperExplodeEvent(event: EntityExplodeEvent){
         if (event.entity.type == EntityType.CREEPER){
             val entity = event.entity as Creeper

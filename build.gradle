@@ -14,6 +14,6 @@ repositories {
 
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.5.31'
     implementation fileTree('external') { include '*.jar' }
 }
